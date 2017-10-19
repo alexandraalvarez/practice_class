@@ -1,0 +1,67 @@
+body{
+	font-family: 'Bangers', cursive;
+	position: relative;
+	margin: 0 auto;
+}
+
+h2{
+	margin: 40px;
+}
+
+img{
+	display: none;
+}
+
+.size{
+	text-align: right;
+	width: 200px;
+	height: 200px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+.container_one{
+	margin-bottom: 30px;
+	position: relative;
+	top: 20px;
+	left: 10px;
+}
+
+.container_two{
+	margin-bottom: 30px; 
+	position: relative;
+	top: 20px;
+	left: 10px;
+}
+
+.picture_one{
+	background-image: url(dungeon_world.jpg);
+	color: white;
+}
+
+.picture_two{
+	background-image: url(hunter.jpg);
+	color: white;
+}
+
+.picture_three{
+	background-image: url(mouse_guard.jpg);
+	color: black;
+}
+
+.picture_four{
+	background-image: url(paranoia.jpg);
+	color: red;
+}
+
+.picture_five{
+	background-image: url(pathfinder.jpg);
+	color: white;
+}
+
+.picture_six{
+	background-image: url(star_wars.jpg);
+	color: #FF4000;
+}
+
+
