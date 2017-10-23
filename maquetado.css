@@ -1,0 +1,159 @@
+/*font-family: 'Hammersmith One', sans-serif;
+Para resolver el problema del cuadrado de bordes circulares que me falta, probar poner el div como elemento de la lista,
+los elementos que van dentro de ese div en otra lista y jugar =.D Column leer, no se puede usar*/
+/*probar el rectángulo con border radius en % para ver si se rendondea los bordes*/
+
+
+body{
+	font-family: 'Paytone One', sans-serif;
+}
+
+
+#white{ /*este es el nav, para evitar que me pase que no logren tomar el color, tengo que darle el fixed al contenedor de 
+	todas las figuras*/
+	background-color: white;
+	width: 100%;
+	position: fixed;
+	top: 0;
+    left: 0;
+    z-index: 10;
+    padding-bottom: 10px;
+}
+
+ul{
+	list-style: none;
+	margin: 0.3em;
+	padding: 0;
+	line-height: 28px;
+}
+
+li{
+	display: inline-block;  	
+}
+
+a{
+	text-decoration: none;
+	font-size: 1em;
+	padding: 1em;
+	margin-left: 2em; 
+	color: white;
+	background: brown;
+}
+
+section{
+	margin-top: 9em;
+	/*outline: 1px solid black;*/
+	width: 75em;
+	height: 400em;
+	position: relative;
+	top: 0;
+}
+
+div{
+	padding-top: 1em;
+	padding-left: 1em;
+	display: inline-block;
+	position: relative;
+}
+
+.box{
+	background-color: #D0A9F5;
+	padding-left: 2em;
+	padding-right: 2em;
+	height: 3.7em;
+}
+
+.pinte_1{
+	float: left;
+}
+
+.pinte_2{
+	float: left;
+}
+
+.pinte_4{
+	float: left;
+}
+
+.pinte_5{
+	bottom: 21em;
+}
+
+.pinte_6{
+	bottom: 15em;
+}
+
+.pinte_7{
+	bottom: 19em;
+	right: 0.3em;
+}
+
+.pinte_8{
+	bottom: 9em;
+	right: 0.5em;
+}
+
+.pinte_9{
+	bottom: 38.6em;
+	right: 0.1em;
+}
+
+.pinte_10{
+	bottom: 28.6em;
+}
+
+.pinte_11{
+	bottom: 41.5em;
+	right: 0.3em;
+}
+
+.pinte_12{
+	bottom: 9.3em;
+	right: 0.5em;
+}
+
+.upper{
+	padding-bottom: 0.5em;
+	border-bottom: 2px grey solid;
+}
+
+.lower{
+	padding-top: 0.9em;
+	padding-bottom: 0.5em;
+}
+
+#pinte{
+	font-size: 2.5em;
+	color: red;
+	display: inline block;
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+.amara{
+	font-family: 'Amaranth', sans-serif;
+	padding-left: 0;
+	padding-right: 38em;
+}
+
+.grey{
+	color: grey; 
+}
+
+.right{
+	padding-left: 3em;
+}
+
+.icons{
+	font-size: 1.7em;
+	margin-left: 0;
+	padding-left: 0.8em;
+}
+
+
+
+/*.box{ no funciona dentro de una lista para hacer el menu con un cajón de búsqueda, desconfigura la lista
+	background-color: 
+}*/
+
+
